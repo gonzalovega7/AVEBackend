@@ -24,3 +24,6 @@ const testTwo = multiplication(3,4);
 
 console.log(testOne);
 console.log(testTwo);
+
+
+module.exports = multiplication;
