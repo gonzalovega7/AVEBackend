@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario de Tareas</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Formulario de Tareas</h1>
+    <form id="taskForm">
+      <label for="taskName">Nombre de la Tarea:</label>
+      <input type="text" id="taskName" required>
+      
+      <label for="taskDate">Fecha:</label>
+      <input type="date" id="taskDate" required>
+
+      <label for="taskPriority">Prioridad:</label>
+      <select id="taskPriority" required>
+        <option value="alta">Alta</option>
+        <option value="media">Media</option>
+        <option value="baja">Baja</option>
+      </select>
+
+      <label for="taskDescription">Descripción:</label>
+      <textarea id="taskDescription" required></textarea>
+
+      <button type="submit">Agregar Tarea</button>
+      <button type="button" id="clearButton">Limpiar Formulario</button>
+    </form>
+
+    <table id="taskTable">
+      <tr>
+        <th>Nombre</th>
+        <th>Fecha</th>
+        <th>Prioridad</th>
+        <th>Descripción</th>
+        <th>Acciones</th>
+      </tr>
+    </table>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
