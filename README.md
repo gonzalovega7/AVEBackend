@@ -16,11 +16,12 @@ Para ejercutar los ejercicios 1, 3 y 4 se debera entrar a la carpeta correspondi
 
 Luego si quieres ejecutar los ejercicios 6, 7 y 8 al entrar a la carpeta correspondiente de cada uno de ellos debes hacerle doble click al archivo index.html y se abrira en tu navegador
 
-## Características
+## Test
+Para ejecutar los test, se debera hacer un npm install para instalar Jest.
 
-- Funcionalidad 1: Esta característica te permite hacer algo increíble.
-- Funcionalidad 2: Otra característica genial que hará que te maravilles.
-- Funcionalidad 3: ¡Y esta funcionalidad te dejará sin palabras!
+Luego, entraremos la carpeta test y ejecutaremos el archivo correspondiente:
+
+    node excercise1.test.js
 
 ## Contacto
 
